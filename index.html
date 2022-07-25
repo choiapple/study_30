@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 휴대폰에서 언어 선택 -->
+<head>
+    <meta charset="UTF-8">
+    <!-- 각 브라우저 글자셋 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 엣지를 위한 줄 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 모바일에서 화면을 보여주는 크기 -->
+    <!-- viewport 중요함 -->
+    <title>신세계몰 클론코딩</title>
+</head>
+<body>
+    <!-- element라고 함 태그 네임 -->
+    <!-- html은 마크업 표시만 하는 언어 조건문을 쓸 수 없다. -->
+    <!-- div는 상자라는 개념임 레이아웃 -->
+    <!-- <div></div> -->
+    <header> <!-- header부분은 위쪽에 계속 보이는 부분-->
+        <div>
+            <div>
+                <p><span>icon</span>지금 신규 가입하면 1개월 무료</p>
+            </div>
+            <ul>
+                <li>로그인</li>
+                <li>회원가입</li>
+                <li>고객센터</li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <h1>SSG.COM</h1>
+            </div>
+            <div>
+                <input type="text" />
+            </div>
+            <div>
+                <div>1.군것질거리</div>
+                <ul>
+                    <li>icon</li>
+                    <li>icon</li>
+                    <li>icon</li>
+                    <li>icon</li>
+                </ul>
+            </div>
+        </div>
+        <nav></nav>
+    </header>
+    <section id="topBanner">
+        <div>
+            <!-- 배너 모듈 -->
+            <div>
+                <a href="./clone.html">
+                    <img src="./assets/img/banner01.jpeg" alt="테니스채를 든 여자"/> <!--src는 소스파일 위치-->
+                        <!-- alt는 스크린 리더가 읽어줌 사회적약자를 위해서 필요함 
+                        검색과 구글에서 살아남기위해서 alt를 잘적어야함-->
+                </a>
+                <a href="https://www.ssg.com/">
+                    <h3>다농이네 7/26(화) 11AM</h3>
+                    <p>샤인머스켓 한정수량 최대 42% 특가</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="subBanner"></section>
+    <footer> <!-- 아래쪽에 계속해서 보여지는 부분-->
+
+    </footer>
+</body>
+</html>
+
+<!-- class는 동일한 기능 여러개
+id는 하나만 사용 가능 -->
+<!-- div, nav는 가진게 없음 색, 넓이 이런게 없음 -->
+
+<!-- 이미지를 잘 안쓰는 이유는
+웹사이트를 사용하려면 이미지를 다운로드 해야함
+다운로드 행위가 발생하면 트래픽이 발생함
+많은 사람들이 접속하면 많은 트래픽이 발생해서 부담이됨
+캐쉬라는 개념이 잇어서 한번 접속했으면 한번다운로드한건 다시 다운로드 안됨
+코드로된 파일들은 용량이 크지않음 이미지로 된건 용량이 큼
+ -->
+
+<!-- pc와 모바일중 이미지 크기가 큰건?
+모바일이 이미지 크기가 큼 모바일의 해상도가 크기때문에
+모바일로 pc꺼를 보면 화면이 깨져서 보임 -->
+
+<!-- 반응형 웹 쓰는 이유
+원소스? 유지보수 관리할때 관리를 편하게 하기 위해서
+포털은 이미지를 다르게 써야함
+pc는 작은 크기의 이미지, 모바일은 큰 크기의 이미지를 사용하는데도
+원소스로 하기를 원함 -->
+
+<!-- a태그
+target이라는 속성은 링크를 어떻게 띄울지에 대해 설정할 수 있음
+default는 self이고, self는 현재 창에서 링크를 띄움
+blank는 새 탭에서 링크를 띄움 -->
+
+<!-- 패딩과 마진
+마진은 요소를 기준으로 바깥의 여백을 지정한다.
+패딩은 요소를 기준으로 안쪽 여백을 지정한다 -->
+
+<!-- <br/>태그를 쓰면 줄바꿈을 쓸수있는데
+react를 할거니까 /를 붙여줘야함
+react를 쓸때 닫힘이 중요함 -->
