@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url(common/common.css);
+@import url(common/color.css);
+/* 이렇게 모아놓고 관리하고 가져다가 쓰면됨 */
+
+h1, p{
+    font-family: 'Gugi', cursive;
+}
+
+h1 {
+    color: var(--ssgRed);
+    font-size: 1.525rem;
+    /* rem은 루트의 설정에 따라 크기가 바뀜
+    반응형이 인기라서 많이 사용함 */
+    font-weight: bold;
+    /* 글자의 굵기 */
+    /* font-style: italic; */
+}
+/* .은 class, #은 id */
+/* .headerBanner {
+
+} */
