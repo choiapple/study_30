@@ -19,13 +19,17 @@ body{
     margin: 0px;
     padding: 0px;
 }
+section{
+    margin: 60px 0px;
+    padding:30px;
+}
 
 .container-fluid{
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .container{
     margin:auto;
     width:1140px;
-    background-color:red;
+    /* background-color:red; */
 }
