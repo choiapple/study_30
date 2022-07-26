@@ -1,16 +1,31 @@
 /* 코드에 바로 스타일을 지정하는 인라인 방법은 우선순위가 가장 높다
 스타일은 되도록이면 css파일로 관리한다. */
 
-body{
+/* body{
     margin: 0px;
     padding: 0px;
-}
+} */
 
-section {
-    margin: 60px 0px; /*순서 상우하좌 순서로 네개 입력할 수 있다.*/
+/* section {
+    margin: 60px 0px; 순서 상우하좌 순서로 네개 입력할 수 있다.
     padding:30px;
     border-width: 2px;
     border-style:solid;
     border-color:blue;
     background-color: tomato;
+} */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+    width: 100%;
+    background-color: blue;
+}
+.container{
+    margin:auto;
+    width:1140px;
+    background-color:red;
 }
